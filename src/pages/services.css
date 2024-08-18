@@ -1,0 +1,40 @@
+.services {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.services ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+
+.services div {
+  width: 300px;
+  margin: 10px;
+  text-align: center;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.services img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .services div {
+    width: 48%;
+    margin: 5px;
+  }
+}
+
+@media (max-width: 480px) {
+  .services div {
+    width: 100%;
+  }
+}

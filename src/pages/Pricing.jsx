@@ -3,6 +3,12 @@ import "../pages/pricing.css";
 const Pricing = () => {
   return (
     <div className="pricing text-center">
+
+      
+                   
+          
+     
+
       
 
       <div className="plan">

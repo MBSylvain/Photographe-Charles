@@ -15,18 +15,24 @@ const Home = () => {
         height="70"
       ></img>
 
-      <h1 class="display-5 fw-bold text-body-emphasis ">
+      <h1 className="display-5 fw-bold text-body-emphasis ">
         Charles Quentin - Photographe
       </h1>
-      <div class="col-lg-6 mx-auto">
-        {annonce ()}
-        <p id="solgan" class="lead mb-4"></p>
-        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-          <button type="button" class="btn btn-outline-secondary btn-lg px-4">
+      <div className="col-lg-6 mx-auto">
+        {annonce()}
+        <p id="solgan" className="lead mb-4"></p>
+        <div className="d-grid gap-2 d-sm-flex justify-content-sm-center">
+          <button
+            type="button"
+            className="btn btn-outline-secondary btn-lg px-4"
+          >
             <Link to="../Services">Mes services</Link>
           </button>
 
-          <button type="button" class="btn btn-outline-secondary btn-lg px-4">
+          <button
+            type="button"
+            className="btn btn-outline-secondary btn-lg px-4"
+          >
             <Link to="../Contact">Contact</Link>
           </button>
         </div>
